@@ -2,7 +2,7 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -19,3 +19,38 @@ form label, form p{
     margin: 20px 0;
 }
 
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s all;
+    
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: green;
+    transform: scale(1.1);
+}
+
+
+table{
+    margin: 20px 0 40px ;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
