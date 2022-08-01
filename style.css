@@ -53,3 +53,9 @@ main{
     margin: 0 auto;
     */
 }
+
+@media screen and (max-width: 480px) {
+    .caixa{
+        width: auto;
+    }
+}
